@@ -1,0 +1,67 @@
+<!--
+        Title: Term Project 
+	Name:  Babatope Shokunbi - C0642703
+	Date:  5th December, 2014.
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Mac's Meat House :: Subscribe to our mailing list</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+        <link href="styles/email.css" rel="stylesheet" type="text/css"/>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	
+</head>
+
+<body>
+	<header class="header">
+		<img src="images/logo2.png" alt="Mac Meat logo" height="85" width="85">
+		<h1>Mac's Meat House</h1>
+		<h2>Quality meat, We deliver.</h2>
+                
+                <nav class= "main_nav">
+                    <a href="index.html" >Home</a> | 
+                    <a href="products/index.html">Products List</a> |
+                    <a href="index.html"> Our Farmers</a> |
+                    <a href="contact.html">Contact</a> |
+                    <a href="email.html" class="current"> Join Email</a> |
+            
+                </nav>
+	</header>
+        
+	<aside class="aside">
+            <nav id="nav_list">
+            <ul>
+                    <li><a href="products/beef.html">Beef </a></li>
+                    <li><a href="products/turkey.html">Turkey </a></li>
+                    <li><a href="products/pork.html">Pork </a></li>
+                    <li><a href="products/chicken.html">Chicken </a></li>
+            </ul>
+            </nav>
+        </aside>
+        
+	<section>
+            <h1>Please fill out the form below.</h1>
+            <p>Fields with <span>red border lines</span> are require to be in the correct format.</p>
+            
+			
+			  <table>
+                <form action='subscribe.html' method='get'>
+                    <td></td>
+                    <tr><td align="right"><label>First Name:</label> </td> <td><input type="text" name="firstname" size="50" placeholder="Enter first name here" required/></td></tr>
+                    <tr><td align="right"><label>Last Name:</label> </td> <td><input type="text" name="lastname" size="50" placeholder="Enter last name here" required/></td></tr>
+                    <tr><td align="right"><label>Email:</label> </td> <td><input type="email" name="email" size="50" placeholder="Enter email address here" required/></td></tr>
+                    <tr><td align="right"><label>Canadian Postal Code:</label> </td> <td><input type="text" name="zipcode" placeholder="Requested format: A#A #A#" title="Postal code must be in this format: A#A #A#" pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" size="50" required/></td></tr>
+                    <tr><td></td><td><input type="submit" value="Subscribe" id="button" onsubmit="window.location.href='subscribe.html'/></a></td></tr>
+                </form>
+              </table>
+	</section>
+	
+	<footer class="footer">
+	<p>&copy; 2014 Babatope Shokunbi</p>
+	</footer>
+</body>
+</html>
